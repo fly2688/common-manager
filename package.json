@@ -1,7 +1,8 @@
 {
-  "name": "opencloud-sop-merchant-web",
+  "name": "common-manager",
+  "author": "ylp",
   "version": "1.0.0",
-  "description": "商户后台管理",
+  "description": "后台管理",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --open",
