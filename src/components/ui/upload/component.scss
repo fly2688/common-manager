@@ -1,0 +1,15 @@
+@import "../../../assets/scss/base";
+.component-layout.ui-upload {
+    .full-width{
+        min-width: auto;
+    }
+    .upload-form{
+        opacity:0;
+        filter:alpha(opacity=0);
+    }
+    .btn-secondary{
+      color: #20A0FF;
+      background-color:white;
+      border-color: #20A0FF
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "LOGO": "static/logo.png",
+  "SHORTNAME": "商户后台管理",
+  "TITLE": "商户后台管理",
+  "DEFAULT_URL": "http://localhost:8080/api/mono",
+  "DEFAULT_SECRET": "123456",
+  "DEFAULT_APP_KEY": "test"
+}

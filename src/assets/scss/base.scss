@@ -1,0 +1,250 @@
+$borderStyle: 1px solid #e5e6e7;
+$gray: #989898;
+$default: #ededed;
+$deepGray: #80848f;
+$white: #FFFFFF;
+$red: #f5222d;
+$warn: #faad14;
+$blue: #5cadff;
+$primary: #1ab394;
+$s5: 5px;
+$s10: 10px;
+$s15: 15px;
+$s20: 20px;
+.text-white{color: $white;}
+.text-red{color: $red;}
+.text-blue{color: $blue;}
+.bg-red {
+  background-color: $red;
+}
+.bg-gray {
+  background-color: $gray;
+}
+.bg-default {
+  background-color: $default;
+}
+.bg-white {
+  background-color: $white;
+}
+.bg-blue {
+  background-color: $blue;
+}
+.bg-lightgray {
+  background: rgba(253,253,253,.95);
+}
+button {
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  -webkit-transition: -webkit-box-shadow 0.2s ease-out;
+  -moz-transition: -moz-box-shadow 0.2s ease-out;
+  -o-transition: box-shadow 0.2s ease-out;
+  color: white;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Microsoft Yahei', Helvetica, Arial, sans-serif;
+}
+.btn-mg{
+  margin-bottom: 3px;
+  margin-right: 3px;
+}
+.btn-danger {
+  background-color: $red;
+  border-color: $red;
+  &:hover{
+    background-color: #db3549;
+  }
+}
+.btn-default {
+  background-color: #c2c2c2;
+  border-color: #c2c2c2;
+  &:hover{
+    background-color: #bfbfbf;
+  }
+}
+.btn-warning {
+  background-color: $warn;
+  border-color: $warn;
+  &:hover{
+    background-color: #ea8e03;
+  }
+}
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  &:hover{
+    background-color: #1aa78a;
+  }
+}
+.btn-blue {
+  background-color: $blue;
+  border-color: $blue;
+  &:hover{
+    background-color: #4f99e5;
+  }
+}
+.btn-white {
+  background-color: $white;
+  border: 1px solid $gray;
+  color: $deepGray;
+  padding: 5px 12px;
+  &:hover{
+    color: $gray;
+    border-color: #aaa;
+  }
+}
+button[disabled],
+button[disabled]:hover,
+button[disabled]:focus,
+button[disabled]:active,{
+  cursor: not-allowed;
+}
+.btn-primary[disabled],
+.btn-primary[disabled]:hover,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled]:active{
+  background-color: #4ae7c7;
+}
+.btn-blue[disabled],
+.btn-blue[disabled]:hover,
+.btn-blue[disabled]:focus,
+.btn-blue[disabled]:active{
+  background-color: #8ac4ff;
+}
+.btn-default[disabled],
+.btn-default[disabled]:hover,
+.btn-default[disabled]:focus,
+.btn-default[disabled]:active,{
+  background-color: #ccc;
+}
+.btn-warning[disabled],
+.btn-warning[disabled]:hover,
+.btn-warning[disabled]:focus,
+.btn-warning[disabled]:active{
+  background-color: #f9cd8c;
+}
+.btn-danger[disabled],
+.btn-danger[disabled]:hover,
+.btn-danger[disabled]:focus,
+.btn-danger[disabled]:active{
+  background-color: #f19393;
+}
+.pd5 {
+  padding: $s5;
+}
+.pd-r5 {
+  padding-right: $s5;
+}
+.pd-l5 {
+  padding-left: $s5;
+}
+.pd-b5{
+  padding-bottom: $s5;
+}
+.pd-t5{
+  padding-top: $s5;
+}
+.pd10 {
+  padding: $s10;
+}
+.pd-t10 {
+  padding-top: $s10;
+}
+.pd-b10 {
+  padding-bottom: $s10;
+}
+.pd-r10 {
+  padding-right: $s10;
+}
+.pd-l10 {
+  padding-left: $s10;
+}
+.pd15 {
+  padding: $s15;
+}
+.pd-t15 {
+  padding-top: $s15;
+}
+.pd-b15 {
+  padding-bottom: $s15;
+}
+.pd-r15 {
+  padding-right: $s15;
+}
+.pd-l15 {
+  padding-left: $s15;
+}
+.pd20 {
+  padding: $s20;
+}
+.pd-t20 {
+  padding-top: $s20;
+}
+.pd-b20 {
+  padding-bottom: $s20;
+}
+
+/*margin*/
+
+.mg5 {
+  margin: $s5;
+}
+.mg-b5 {
+  margin-bottom: $s5;
+}
+.mg10 {
+  margin: $s10;
+}
+.mg-t10 {
+  margin-top: $s10;
+}
+.mg-b10 {
+  margin-bottom: $s10;
+}
+.mg-r10 {
+  margin-right: $s10;
+}
+.mg-l10 {
+  margin-left: $s10;
+}
+.mg15 {
+  margin: $s15;
+}
+.mg-t15 {
+  margin-top: $s15;
+}
+.mg-b15 {
+  margin-bottom: $s15;
+}
+.mg-r15 {
+  margin-right: $s15;
+}
+.mg-l15 {
+  margin-left: $s15;
+}
+.mg20 {
+  margin: $s20;
+}
+.mg-t20 {
+  margin-top: $s20;
+}
+.mg-b20 {
+  margin-bottom: $s20;
+}
+.mg-r20 {
+  margin-right: $s20;
+}
+.mg-l20 {
+  margin-left: $s20;
+}
+.layer-close{
+    right: -10px;
+    top: -10px;
+    padding: 3px 5px;
+    &:hover{
+        background-color: #ee5656;
+    }
+}

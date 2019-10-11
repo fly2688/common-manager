@@ -1,0 +1,16 @@
+@import "../../../assets/scss/base";
+.component-layout.ui-huge-img-layer {
+    background-color: rgba(0, 0, 0, .5);
+    padding-top: 50px;
+    z-index: 15;
+    .inner-box{
+        width: 65%;
+        min-width: 450px;
+        .inner{
+            overflow-y: auto;
+        }
+    }
+    .layer-close{
+        padding: 3px 7px;
+    }
+}

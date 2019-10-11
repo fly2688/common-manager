@@ -1,0 +1,17 @@
+@import "../../../assets/scss/base";
+.component-layout.ui-enlarge-img {
+    .inner{
+        width: 85px;
+        height: 85px;
+        overflow: hidden;
+        line-height: 85px;
+        .img-responsive{
+            display: inline-block;
+        }
+        .layer-close{
+            top: 0;
+            right: 0;
+            line-height: 15px;
+        }
+    }
+}

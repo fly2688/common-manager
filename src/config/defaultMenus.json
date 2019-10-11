@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "parentId": 0,
+    "name": "首页",
+    "url": "../home.html",
+    "icon": "fa-bars"
+  },
+  {
+    "id": 7,
+    "parentId": 0,
+    "name": "交易管理",
+    "url": "",
+    "icon": "fa-bars"
+  },
+  {
+    "id": 10,
+    "parentId": 7,
+    "name": "订单中心",
+    "url": "../transaction/order_list.html",
+    "icon": "fa-bars"
+  }
+]

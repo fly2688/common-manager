@@ -1,0 +1,9 @@
+@import "../../assets/scss/base";
+.component-layout.left-nav {
+    padding-top: 60px;
+    width: 186px;
+    overflow: hidden;
+    z-index: 3;
+    border-right: $borderStyle;
+    background-color: #1e2a38;
+}

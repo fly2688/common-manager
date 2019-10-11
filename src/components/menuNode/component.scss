@@ -1,0 +1,54 @@
+@import "../../assets/scss/base";
+.component-layout.menu-node {
+    .bg-blue{
+        background-color: $blue;
+    }
+    $lineh:24px;
+    .text-left{text-align: left;}
+    .menu{
+        p span:hover{
+           color: $blue;
+        }
+        p.on span:hover{
+            color: $white;
+        }
+    }
+    .sub-menu{
+        p.on span{
+            color: $blue;
+        }
+    }
+    .inlineblock{
+        display: inline-block;
+    }
+    .menu span{
+        line-height: $lineh;
+    }
+    span.arrow{
+        height: 12px;
+        width: 12px;
+        margin-top: 6px;
+        line-height:normal;
+        display: block;
+        background-image: url(../../../public/images/arrow-right.png);
+        background-size: 100% 100%;
+        -webkit-transition: -webkit-transform 0.4s ease-out;
+        -moz-transition: -moz-transform 0.4s ease-out;
+        transition: transform 0.4s ease-out;
+        -webkit-transform:rotate(0);
+        -moz-transform:rotate(0);
+        -o-transform:rotate(0);
+        -ms-transform:rotate(0);
+        transform:rotate(0); 
+    }
+    span.arrow.icon-rotate{
+        -webkit-transform:rotate(90deg);
+        -moz-transform:rotate(90deg);
+        -o-transform:rotate(90deg);
+        -ms-transform:rotate(90deg);
+        transform:rotate(90deg);    
+    }
+    span.arrow.on{
+        background-image: url(../../../public/images/arrow-right-on.png);
+    }
+}

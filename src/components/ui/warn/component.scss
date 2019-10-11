@@ -1,0 +1,11 @@
+@import "../../../assets/css/animate";
+.component-layout.ui-warn {
+    top: 10%;
+    left: 45%;
+    z-index: 205;
+    padding: 10px 15px;
+    display: inline-block;
+    .dialog-inner{
+        width: auto;
+    }
+}

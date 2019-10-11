@@ -1,0 +1,19 @@
+@import "../../../assets/scss/base";
+.component-layout.transaction-pay-set {
+    textarea.form-control{
+        width: auto;
+        height: auto;
+    }
+    .form-label.autowidth{
+        min-width: 126px;
+    }
+    .merch-si{
+        position: relative;
+        &:after{
+            position: absolute;
+            bottom: -17px;
+            right: 12px;
+            content: '(退款操作必须)';
+        }
+    }
+}
